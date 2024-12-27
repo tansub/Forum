@@ -1,0 +1,30 @@
+.create {
+    width: 550px;
+    height: 70px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: #45B871;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapperForCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 630px) {
+    .create {
+        font-size: 40px;
+        width: 350px;
+    }
+    
+}
